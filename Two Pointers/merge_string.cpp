@@ -8,7 +8,8 @@ string mergeAlternately(string word1, string word2)
 
     while (i < len1 && j < len2)
     {
-        result += word1[i] + word2[j];
+        result += word1[i];
+        result += word2[j];
         i++; j++;    
     }
 
