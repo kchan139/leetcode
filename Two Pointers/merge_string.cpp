@@ -8,21 +8,15 @@ string mergeAlternately(string word1, string word2)
 
     while (i < len1 && j < len2)
     {
-        result += word1[i];
-        result += word2[j];
-        i++; j++;    
+        result += word1[i++];
+        result += word2[j++];
     }
 
     while (i < len1)
-    {
-        result += word1[i];
-        i++;
-    }
+        result += word1[i++];
+        
     while (j < len2)
-    {
-        result += word2[j];
-        j++;
-    }
+        result += word2[j++];
 
     return result;
 }
