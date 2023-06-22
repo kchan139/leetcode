@@ -5,8 +5,8 @@ int main()
     // cout << "Enter the number of strings: ";
     // int n; cin >> n;
 
-    // vector<string> strs(n);
     // cout << "Enter the strings:" << endl;
+    // vector<string> strs(n);
     // for (int i = 0; i < n; ++i)
     //     cin >> strs[i];
 
