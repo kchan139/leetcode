@@ -9,9 +9,7 @@ int main()
     // vector<string> strs(n);
     // cout << "Enter the strings:" << endl;
     // for (int i = 0; i < n; ++i)
-    // {
     //     cin >> strs[i];
-    // }
 
     vector<string> strs = { "eat", "tea", "tan", "ate", "nat", "bat" };
 
