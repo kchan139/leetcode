@@ -2,9 +2,8 @@
 
 int main()
 {
-    // int n;
     // cout << "Enter the number of strings: ";
-    // cin >> n;
+    // int n; cin >> n;
 
     // vector<string> strs(n);
     // cout << "Enter the strings:" << endl;
