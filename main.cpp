@@ -16,11 +16,15 @@ int main()
     vector<vector<string>> groupedAnagrams = solution.groupAnagrams(strs);
 
     cout << "Grouped Anagrams:" << endl;
-    for (const auto& group : groupedAnagrams)
+    for (const auto & group : groupedAnagrams)
     {
-        cout << "[ ";
-        for (const auto& str : group)
-            cout << str << " ";
+        cout << "[";
+        for (size_t i = 0, size = group.size(); i < size; ++i)
+        {
+            cout << group[i];
+            if (i < size - 1)
+                cout << ", ";
+        }
         cout << "]" << endl;
     }
 
